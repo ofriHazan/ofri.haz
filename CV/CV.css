@@ -90,23 +90,6 @@ p {
 }
 
 
-/*@keyframes changeColor {*/
-/*    from {*/
-/*        background-color: lightgoldenrodyellow;*/
-/*    }*/
-/*    to {*/
-/*        background-color: lightskyblue;*/
-/*    }*/
-/*}*/
-/*    div {*/
-/*  width: 10px;*/
-/*  height: 10px;*/
-/*  background-color: lightgoldenrodyellow;*/
-/*  animation-name: changeColor;*/
-/*  animation-duration: 5s;*/
-/*}*/
-
-
 
 @media only screen and (max-width: 1000px) {
     /* For mobile phones: */
@@ -128,18 +111,3 @@ p {
     }
 }
 
-
-
-/*!* The animation code *!*/
-/*@keyframes changeColor {*/
-/*from {background-color: yellowgreen;}*/
-/*to {background-color: cadetblue;}*/
-/*}*/
-/*!* The element to apply the animation to *!*/
-/*div {*/
-/*!*width: 100px;*!*/
-/*!*height: 100px;*!*/
-/*background-color: tan;*/
-/*animation-name: changeColor;*/
-/*animation-duration: 1000st;*/
-/*}*/
