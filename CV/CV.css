@@ -12,16 +12,34 @@
     float: left;
     padding: 20px;
 }
-
+button {
+    color: black;
+    background-color: #E6E6FA;
+}
+ .img {
+  border: 1px solid black;
+  border-radius: 40px;
+  padding: 1px;
+  height: 5px;
+  width: 5px;
+}
+ .picture{
+    height: 5px;
+    width: 5px;
+    float: left;
+    padding: 6px;
+    border: 1px solid black;
+}
 body{
-    text-align: center;
+    text-align: left;
     font-family: Garamond, serif;
     background-color: #F3CEE8;
-    color: azure;
+    color: black;
 
 }
 
-p {
+[class*="slideCV"] {
+    color: lightcyan;
   animation-duration: 15s;
   animation-name: slidein;
   animation-iteration-count: infinite;
@@ -29,7 +47,7 @@ p {
 @keyframes slidein {
   from {
     margin-left: 100%;
-    width: 100%;
+    width: 300%;
   }
 
   to {
@@ -41,9 +59,9 @@ p {
 
 .col-header{
     /*height: 10%;*/
-    width: 90%;
+    width: 80%;
     float: right;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid black;
 }
 
@@ -62,9 +80,16 @@ p {
     padding: 20px;
     border: 2px solid black;
 }
+.a{
+    height: 5px;
+    width: 5px;
+    float: left;
+    padding: 6px;
+    border: 1px solid black;
+}
 
 .col-information{
-    width: 40%;
+    width: 80%;
     float: right;
     padding: 20px;
     border: 2px solid black;
@@ -73,13 +98,13 @@ p {
 .col-experience{
     width: 40%;
     float: right;
-    padding: 20px;
+    padding: 10px;
     border: 2px solid black;
 }
 .col-education{
-    width: 90%;
+    width: 40%;
     float: right;
-    padding: 20px;
+    padding: 10px;
     border: 2px solid black;
 }
 
@@ -88,16 +113,18 @@ p {
 .row{
 
 }
-
+div :hover{
+    background-color: plum;
+}
 
 @media only screen and (max-width: 1000px) {
     /* For mobile phones: */
     [class*="col-"] {
-        width: 90%;
+        width: 70%;
     }
 
     [class*="sidebar"] {
-        width: 10%;
+        width: 30%;
     }
 
     body {
@@ -108,6 +135,30 @@ p {
         color: black;
         background-color:#D8F9E7 ;
     }
+  .img {
+  border: 1px solid black;
+  border-radius: 40px;
+  padding: 1px;height: 10px;
+  width: 10px;
+}
+
+.picture{
+    height: 5px;
+    width: 5px;
+    float: left;
+    padding: 6px;
+    border: 1px solid black;
+}
+
+[class*="slideCV"] {
+    color: lightseagreen;
+  animation-duration: 15s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+div :hover{
+    background-color: lightblue;
+}
 }
 
 
